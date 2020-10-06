@@ -1,0 +1,4 @@
+<div class="footerNavContainer">
+  <div [ngClass]="{valid : active > 0}" class="lowerButton"  (click)="back()" >חזרה אחרונית</div>
+  <div [ngClass]="{valid : active < steps.length-1}" class="lowerButton next" (click)="next()" >המשך</div>
+</div>

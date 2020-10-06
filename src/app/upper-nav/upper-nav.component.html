@@ -1,0 +1,7 @@
+<div class="line"></div>
+<div class="navCotainer">
+  <div class="step" *ngFor="let step of steps; let i = index" (click)="onChoose(i)" [ngClass]="{ active: activeIndex === i }" >
+    <div class="theIndex">{{i+1}}</div>
+    <div>{{step.stepName}}</div>
+  </div>
+</div>

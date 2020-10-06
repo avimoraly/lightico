@@ -1,0 +1,25 @@
+.footerNavContainer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  // gap: 1px;
+
+  .lowerButton {
+    background-color: grey;
+    // border-radius: 5px;
+    text-align: center;
+    // background-color: grey;
+    font-size: 3rem;
+  }
+  .valid {
+    background-color:  #474747;
+    color: #008cff;
+    cursor: pointer;
+  }
+  .next {
+    border-right: 1px solid #747373;
+  }
+}
